@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "nexus",
+	"version": "${version}",
+	"name": "Nexus",
+	"description": "türkiye is a country",
+	"authors": [
+		"rjupiter"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nexus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"rj.nexus.Nexus"
+		],
+		"client": ["rj.nexus.NexusClient"]
+	},
+	"mixins": [
+		"nexus.mixins.json"
+	],
+	"accessWidener": "nexus.classtweaker",
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

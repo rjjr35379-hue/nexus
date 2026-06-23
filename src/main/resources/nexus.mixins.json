@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "rj.nexus.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"GuiHudMixin",
+		"GameRendererShakeMixin",
+		"LocalPlayerCutsceneMixin",
+		"LocalPlayerInputMixin",
+		"RarityAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
